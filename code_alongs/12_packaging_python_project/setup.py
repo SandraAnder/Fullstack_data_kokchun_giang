@@ -21,4 +21,5 @@ setup(
         "python-dotenv",
     ],
     packages=find_packages(exclude=["test*", "explorations"]),
+    entry_points={"console_scripts": ["dashboard = utils.run_dashboard:run_dashboard"]},
 )

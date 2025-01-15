@@ -5,6 +5,7 @@ from pprint import pprint
 
 load_dotenv()
 
+# API_KEY=DIN_NYCKEL
 
 class ResRobot:
 
